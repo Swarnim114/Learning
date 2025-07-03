@@ -17,7 +17,7 @@ void solve() {
         adj[u].push_back(Pair(v, w));
     }
 
-    vector<ll> dist(n + 1, 1e18);
+    vector<ll> dist(n + 1, 1e18);22
     vector<ll> path(n + 1, 0);
     vector<ll> minNode(n + 1, 1e18);
     vector<ll> maxNode(n + 1, 0);
